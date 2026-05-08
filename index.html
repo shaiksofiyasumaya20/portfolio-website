@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shaik Sofiya Sumaya | Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="cursor-glow" aria-hidden="true"></div>
+
+    <header class="topbar">
+      <a class="brand" href="#home" aria-label="Go to home">
+        <span class="brand-mark">S</span>
+        <span>Sofiya</span>
+      </a>
+
+      <nav class="nav" aria-label="Portfolio sections">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#work" class="nav-link">Work</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+    </header>
+
+    <main class="snap-container" id="portfolio">
+      <section class="panel hero" id="home" data-section="Home">
+        <div class="code-backdrop" aria-hidden="true">
+          <span>class Portfolio {</span>
+          <span>  solve(problem);</span>
+          <span>  build(application);</span>
+          <span>}</span>
+        </div>
+
+        <div class="hero-copy">
+          <p class="eyebrow">Computer Science Engineering Student</p>
+          <h1>Shaik Sofiya Sumaya</h1>
+          <p class="subheading">
+            Computer Science Engineering Student | Java Developer | Web Developer
+          </p>
+          <p class="lead">
+            Passionate about Java, Web Development, and Data Structures &
+            Algorithms. Currently exploring Cybersecurity and IoT while building
+            modern, responsive, and user-friendly applications.
+          </p>
+          <div class="actions">
+            <a class="button primary" href="#work">View Work</a>
+            <a class="button secondary" href="#contact">Contact Me</a>
+          </div>
+
+          <div class="tech-tags" aria-label="Technical interests">
+            <span>Java</span>
+            <span>Web Development</span>
+            <span>DSA</span>
+            <span>Cybersecurity</span>
+            <span>IoT</span>
+          </div>
+        </div>
+
+        <div class="developer-visual" aria-label="Developer profile visual">
+          <div class="terminal-card">
+            <div class="terminal-bar">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <pre><code>const student = {
+  name: "Sofiya",
+  role: "Java Developer",
+  focus: ["DSA", "Web", "IoT"],
+};
+
+student.build("responsive apps");</code></pre>
+          </div>
+
+          <div class="profile-chip">
+            <span class="chip-mark">CS</span>
+            <div>
+              <strong>Student Developer</strong>
+              <small>coding / technology / problem solving</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="scroll-hint" aria-hidden="true">
+          <span></span>
+        </div>
+      </section>
+
+      <section class="panel work" id="work" data-section="Work">
+        <div class="section-heading">
+          <p class="eyebrow">Selected Work</p>
+          <h2>Projects built with logic, clarity, and clean code.</h2>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-media electric"></div>
+            <p class="project-type">Java Application</p>
+            <h3>Student Management</h3>
+            <p>
+              A structured Java project focused on records, search, validation,
+              and clean object-oriented programming.
+            </p>
+          </article>
+
+          <article class="project-card">
+            <div class="project-media ember"></div>
+            <p class="project-type">Web Development</p>
+            <h3>Responsive Portfolio</h3>
+            <p>
+              A fast, mobile-friendly portfolio interface built with semantic
+              HTML, modern CSS, and smooth section navigation.
+            </p>
+          </article>
+
+          <article class="project-card">
+            <div class="project-media mint"></div>
+            <p class="project-type">DSA Practice</p>
+            <h3>Algorithm Tracker</h3>
+            <p>
+              A practice project for organizing problems, tracking progress, and
+              strengthening core data structures and algorithms.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="panel skills" id="skills" data-section="Skills">
+        <div class="section-heading">
+          <p class="eyebrow">Capabilities</p>
+          <h2>Software, coding, systems, and problem solving.</h2>
+        </div>
+
+        <div class="skill-layout">
+          <div class="skill-copy">
+            <p>
+              My work sits where computer science fundamentals meet practical
+              software development: clean logic, responsive interfaces, and
+              applications that are useful, reliable, and easy to use.
+            </p>
+          </div>
+
+          <div class="skill-list">
+            <div class="skill-row">
+              <span>Java Programming</span>
+              <div class="meter"><i style="width: 96%"></i></div>
+            </div>
+            <div class="skill-row">
+              <span>Frontend Development</span>
+              <div class="meter"><i style="width: 92%"></i></div>
+            </div>
+            <div class="skill-row">
+              <span>Data Structures & Algorithms</span>
+              <div class="meter"><i style="width: 88%"></i></div>
+            </div>
+            <div class="skill-row">
+              <span>Cybersecurity & IoT Basics</span>
+              <div class="meter"><i style="width: 84%"></i></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel contact" id="contact" data-section="Contact">
+        <div class="contact-shell">
+          <p class="eyebrow">Contact</p>
+          <h2>Let's Connect</h2>
+          <p>
+            I'm a Computer Science Engineering student passionate about Java,
+            Web Development, Data Structures & Algorithms, Cybersecurity, and
+            IoT. Feel free to reach out for collaborations, internship
+            opportunities, project discussions, or learning opportunities.
+          </p>
+
+          <div class="contact-links" aria-label="Contact details">
+            <a
+              href="mailto:sofiyasumayashaik0@gmail.com"
+              aria-label="Email Sofiya at sofiyasumayashaik0@gmail.com"
+            >
+              <svg aria-hidden="true" viewBox="0 0 24 24">
+                <path d="M4 6h16v12H4z" />
+                <path d="m4 7 8 6 8-6" />
+              </svg>
+              <span>
+                <small>Email</small>
+                sofiyasumayashaik0@gmail.com
+              </span>
+            </a>
+            <a
+              href="https://github.com/shaiksofiyasumaya20"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Open Sofiya's GitHub profile in a new tab"
+            >
+              <svg aria-hidden="true" viewBox="0 0 24 24">
+                <path
+                  d="M12 2a10 10 0 0 0-3 19c.5.1.7-.2.7-.5v-2c-2.9.6-3.5-1.2-3.5-1.2-.5-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 0 1.6 1.1 1.6 1.1.9 1.6 2.4 1.1 3 .9.1-.7.4-1.1.7-1.4-2.3-.3-4.7-1.2-4.7-5A3.9 3.9 0 0 1 6.8 7c-.1-.3-.5-1.4.1-2.8 0 0 .9-.3 2.8 1.1a9.7 9.7 0 0 1 5 0c1.9-1.4 2.8-1.1 2.8-1.1.6 1.4.2 2.5.1 2.8a3.9 3.9 0 0 1 1 2.8c0 3.9-2.4 4.7-4.7 5 .4.3.7 1 .7 2v3.7c0 .3.2.6.7.5A10 10 0 0 0 12 2Z"
+                />
+              </svg>
+              <span>
+                <small>GitHub</small>
+                github.com/shaiksofiyasumaya20
+              </span>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/sofiyasumayashaik"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Open Sofiya's LinkedIn profile in a new tab"
+            >
+              <svg aria-hidden="true" viewBox="0 0 24 24">
+                <path d="M6.5 9.5V19" />
+                <path d="M6.5 5v.1" />
+                <path d="M11 19v-9.5" />
+                <path d="M11 13.5c0-2.2 1.3-4 3.5-4s3.5 1.4 3.5 4V19" />
+              </svg>
+              <span>
+                <small>LinkedIn</small>
+                linkedin.com/in/sofiyasumayashaik
+              </span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <aside class="section-dots" aria-label="Section navigation">
+      <a class="dot active" href="#home" aria-label="Home"></a>
+      <a class="dot" href="#work" aria-label="Work"></a>
+      <a class="dot" href="#skills" aria-label="Skills"></a>
+      <a class="dot" href="#contact" aria-label="Contact"></a>
+    </aside>
+
+    <script src="script.js"></script>
+  </body>
+</html>
